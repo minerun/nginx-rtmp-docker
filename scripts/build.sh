@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -e
 
-use_tag="docker27/nginx-rtmp:$NAME"
+use_tag="duck27/nginx-http-flv:$NAME"
 
 docker build -t "$use_tag" .
