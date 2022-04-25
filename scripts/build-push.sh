@@ -5,7 +5,7 @@ set -e
 use_tag="duck27/nginx-http-flv:$NAME"
 use_dated_tag="${use_tag}-$(date -I)"
 
-bash scripts/docker-login.sh
+# bash scripts/docker-login.sh
 
 bash scripts/build.sh
 
